@@ -23,7 +23,7 @@
             display: flex;
             gap:10px;
         }
-        #printer-dead-space{
+        .printer-dead-space{
             width:calc(5in - 6mm);
             height:0.5in;
             background:black;
@@ -31,6 +31,7 @@
             bottom:0;
         }
         h1{
+            text-transform: uppercase;
             font-size:18px;
             margin-top: 20px;
         }
@@ -38,7 +39,7 @@
 </head>
 <body>
     <div id="index-card">
-        <div id="left">
+        <div class="left">
             <h1 style="margin-top:0;">VODKA</h1>
             Haku, Japan / 12<br>
             Ketel One, Holland / 13<br>
@@ -73,7 +74,7 @@
                 El Búho / 13<br>
        </div>
        
-       <div id="right">
+       <div class="right">
             <h1 style="margin-top:0;">BOURBON</h1>
                 Four Roses / 11<br>
                 Maker's Mark / 13<br>
@@ -106,34 +107,42 @@
                 Yamazaki 12 Year / 35<br>
        </div>
     
-       <div id="printer-dead-space"></div>
+       <div class="printer-dead-space"></div>
     </div>
 
     <div id="index-card-back">
-        <h1>amaro</h1>
+        <div class="left">
+            <h1>amaro</h1>
             Averna / 12<br>
             Nonino / 14<br>
             Marseille by Forthave / 16<br>
 
-        <h1>vermut</h1>
-            Lustau / 11<br>
-            Ataman / 12<br>
+            <h1>vermut</h1>
+                Lustau / 11<br>
+                Ataman / 12<br>
 
-        <h1>brandy de Jerez</h1>
-            Cardenal Mendoza / 15<br>
+            <h1>brandy de Jerez</h1>
+                Cardenal Mendoza / 15<br>
 
-        <h1>cordial</h1>
-            Licor 43 / 12<br>
-            Sambuca Molinari / 12<br>
-            Luxardo Maraschino /12<br>
-            Liquore Strega / 12<br>
-            Cointreau / 13<br>
-            Drambuie / 13<br>
-            Pacharán Atxa / 14<br>
-            Green Chartreuse / 18<br>
+            <h1>cordial</h1>
+                Licor 43 / 12<br>
+                Sambuca Molinari / 12<br>
+                Luxardo Maraschino /12<br>
+                Liquore Strega / 12<br>
+                Cointreau / 13<br>
+                Drambuie / 13<br>
+                Pacharán Atxa / 14<br>
+                Green Chartreuse / 18<br>
 
-        <h1>grappa</h1>
-            Po di Poli, Marc of Pinot Noir / 14
+            <h1>grappa</h1>
+                Po di Poli, Marc of Pinot Noir / 14
+        </div>
+        
+        <div class="right">
+
+        </div>
+        <div class="printer-dead-space"></div>
     </div>
+
 </body>
 </html>
